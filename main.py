@@ -1,8 +1,8 @@
 import os
 import requests
 
-TOKEN = os.environ["TELEGRAM_TOKEN"]
-CHAT_ID = os.environ["TELEGRAM_CHAT_ID"]
+TOKEN = os.environ["8994820850:AAEMSgs4lwT0PEAf9VV8WgaLxZehcBTp9-4"]
+CHAT_ID = os.environ["6420362893"]
 
 respuesta = requests.post(
     f"https://api.telegram.org/bot{TOKEN}/sendMessage",
